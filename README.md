@@ -1,7 +1,25 @@
 # Google Trend Dashboard
+### Dashboard Link : https://app.powerbi.com/view?r=eyJrIjoiNjlhZTAxNWItMDU1Zi00ZDk1LThlMzEtN2Y0ZjAzOTAyZGFkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9
 ## Objective
 The objective of the Google Trend Dashboard is to provide a comprehensive and dynamic tool for analyzing search trends across various keywords. By leveraging data from the Google Trends API, this dashboard aims to deliver real-time insights and actionable data to businesses, marketers, researchers, and individuals. The goal is to help users identify emerging topics, compare interest levels across regions, and make informed decisions based on current and historical search trends.
-### Dashboard Link : https://app.powerbi.com/view?r=eyJrIjoiNjlhZTAxNWItMDU1Zi00ZDk1LThlMzEtN2Y0ZjAzOTAyZGFkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9
+## 1. Introduction
+Google Trends is a powerful tool for analyzing the popularity of search queries over time. This can provide valuable insights for businesses, marketers, researchers, and individuals interested in understanding public interest and trends. Google Trends can help identify emerging topics, compare interest levels across regions, and gauge the effectiveness of marketing campaigns. In this report, we will delve into the Google Trend Dashboard, which utilizes Google Trends data to provide actionable insights. This is a live project that provides real-time data and analysis.
+
+### Purpose: 
+Analyze keyword popularity and trends using Google Trends data.
+
+### Dynamic Dashboard: 
+The heart of the project, this dashboard updates in real time, allowing users to explore keyword dynamics effortlessly.
+
+### How It Works:
+
+* SerpApi Integration: We utilize the SerpApi service to fetch Google Trends data. This API enables seamless data retrieval, ensuring our dashboard remains current.
+
+* Refresh Button: With a simple click, users can refresh the data, instantly updating the dashboard.
+
+* Keyword Customization: Users can input any keywords they want to analyze. For instance, compare car brands or different product names within a specific location or country.
+
+
 
 ## Tool Used
 * Power BI,
@@ -12,10 +30,15 @@ The objective of the Google Trend Dashboard is to provide a comprehensive and dy
 * Data Cleaning,
 * Power Query,
 * Data Visualization,
-* Statistical Analysis,,
-## 1. Introduction
-Google Trends is a powerful tool for analyzing the popularity of search queries over time. This can provide valuable insights for businesses, marketers, researchers, and individuals interested in understanding public interest and trends. Google Trends can help identify emerging topics, compare interest levels across regions, and gauge the effectiveness of marketing campaigns. In this report, we will delve into the Google Trend Dashboard, which utilizes Google Trends data to provide actionable insights. This is a live project that provides real-time data and analysis.
+* Statistical Analysis,  
+## Dashboard Structure
+ * Home Page : Provides an overview of trends by country. Allows users to filter data based on their preferences.
 
+* Keywords Analyzed by Date : Tracks keyword trends over time. Visualizes how popularity fluctuates.
+
+* Rising and Top Keywords : Identifies emerging trends and popular keywords. Helps users stay ahead of the curve.
+
+* Real-time Data Analysis : Displays the latest trends and insights. Enables quick decision-making.
 ## 2. Importance of Google Trend Analysis
 ### i. Market Insights
 Google Trends helps businesses understand what consumers are interested in and searching for. This can be crucial for product development, marketing strategies, and identifying new market opportunities.
@@ -48,7 +71,12 @@ The Google Trend Dashboard is a comprehensive tool designed to track and analyze
      Main Keyword: Data Analyst.
 
 * Other Keywords: Data Scientist, Software Developer, Web Developer, India Jobs
-
+## Key Insights:
+* Machine Learning is the most searched domain from 2004 to 2024.
+* Data Analytics has a total of 3.45K searches.
+* Data Engineering is the most rising keyword with 40K searches (it may change with time).
+* The top keyword is data with 100 searches (it may change with time).
+* In total, there have been 25,302 searches across these 5 domains.
 ## Detailed Analysis
 * Keywords Overview
 The dashboard tracks the following keywords: Data Analyst, Data Scientist, Software Developer, Web Developer, India Jobs
